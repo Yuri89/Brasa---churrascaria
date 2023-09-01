@@ -1,0 +1,52 @@
+.banner-prato{
+    padding: 10vh 20vh;
+    display: flex;
+    gap: 7vw;
+    justify-content: center;
+    background: var(--gradiente-1);
+    box-shadow: inset 0px 0px 10px black;
+}
+.box-img{
+    border-radius: 10px;
+    border: 2px solid rgb(199, 199, 199);
+}
+.box-info{
+    width: 70vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-info button{
+    background-color: aliceblue;
+    font-size: 2rem;
+    padding: 1vh 8vw;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+    color: rgb(26, 26, 26);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.384);
+}
+
+.box-info button:hover{
+    background-color: #00a015;
+    font-size: 2rem;
+    padding: 1vh 8vw;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: rgb(221, 221, 221);
+}
+
+.box-info h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.box-info p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}

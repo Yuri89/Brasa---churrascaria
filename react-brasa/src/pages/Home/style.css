@@ -1,0 +1,164 @@
+.banner{
+    padding: 25vh 25vw;
+    background: url('../../assets/img/costela.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.banner h1{
+    text-align: center;
+    text-shadow: 3px 3px 0px  rgb(155, 155, 155);
+    color: #d8d8d8;
+    background-color: #0f0f0fcc;
+    font-size: 3.5rem;
+    user-select: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+.secao2{
+    padding: 30px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.orgCaixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    
+}
+
+.orgCaixa h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.orgCard{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+.secao3{
+    padding: 30px 80px;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.418);
+    background-color: #1f0f0f;
+    overflow: hidden;
+    background-image: url('/src/assets/img/background2.png');
+    background-size: cover;
+}
+
+.secao3 h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+    text-decoration: solid #d8d8d8 2px underline;
+    font-weight: 700;
+}
+
+.orgCaixa2 img{
+    width: 30vw;
+    border-radius: 80px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
+}
+
+.orgCaixa2{
+    display: flex;
+    gap: 5vh 5vw;
+    flex-direction: row;
+    align-items: center;
+    backdrop-filter: blur(40px);
+    border: #1f0f0f1f solid 1px;
+    border-radius: 100px;
+}
+
+.orgCaixa2 span{
+    font-size: 1.5rem;
+    
+}
+
+
+
+.orgCaixa2 h3{
+    margin-bottom: 100px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.orgCaixa2 p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+.secao4{
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao4 h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.selos{
+    display: flex;
+    flex-direction: row;
+    background-color: #1f0f0f;
+    padding: 50px;
+    gap: 10px;
+}
+
+.div1selo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.div2selo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.selos span{
+    font-size: 1.5rem;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #442323;
+    padding: 15px;
+}
+
+.secao5 {
+    display: flex;
+    justify-content: center;
+    padding: 5vh 5vw;
+    background-color: #442323;
+}
+
+.paralax{
+    padding: 100px;
+    background-image: url('/src/assets/img/madeira.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}

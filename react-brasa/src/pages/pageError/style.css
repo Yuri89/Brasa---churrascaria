@@ -1,0 +1,14 @@
+.pageError{
+    display: flex;
+    justify-content: center;
+    padding: 200px 20px;
+    background-color: rgb(77, 20, 20);
+}
+
+.pageError p{
+    color: rgb(214, 214, 214);
+    font-size: 6rem;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.514);
+    font-weight: 800;
+    padding: 10px;
+}

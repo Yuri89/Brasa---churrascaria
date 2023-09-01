@@ -1,0 +1,12 @@
+.CarneVermelhaMain{
+    padding: 5vh 5vw;
+    
+}
+.CVSection{
+    padding: 10vh 2vw;
+    background-color: rgb(80, 21, 21);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    justify-content: center;
+}

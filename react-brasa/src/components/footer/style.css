@@ -1,0 +1,72 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background:no-repeat 
+    url("../../assets/img/BrasaLogoBlack.png") 
+    center;
+    background-size: auto 20vh;
+    padding: 30px 10vw;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.158);
+}
+
+
+.icons{
+    top: 10px;
+    position: relative;
+    
+}
+
+.icons svg{
+    margin: 10px;
+}
+
+.linksNavf{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+}
+
+.links a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #d8d8d8;
+    position: relative;
+    top: 6px;
+    font-weight: 800;
+    cursor: pointer;
+    user-select: none;
+}
+
+.links a:hover{
+    color: rgb(255, 62, 62);
+}
+
+
+.btn:hover{
+    color: rgb(255, 62, 62);
+}
+
+@media screen and (max-width: 896px){
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background:none;
+        background-size: auto 20vh;
+        padding: 30px 10vw;
+        box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.158);
+    }
+
+    .links a{
+        font-size: 1rem;
+        
+    }
+    .icons svg{
+        margin: 3px;
+    }
+}
