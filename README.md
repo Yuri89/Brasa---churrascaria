@@ -5,6 +5,7 @@ site de churrascaria
 para ver o projeto instale ou git clone
 
 no terminal
+  cd react-brasa
   npm install
   npm react-router-dom
   npm axios
