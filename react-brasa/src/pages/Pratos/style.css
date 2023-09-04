@@ -1,12 +1,17 @@
+header{
+    box-shadow: 0px 0px 100px black;
+}
+
 .CarneVermelhaMain{
-    padding: 5vh 5vw;
+    padding: 2vh 2vw;
     
 }
 .CVSection{
     padding: 10vh 2vw;
-    background-color: rgb(80, 21, 21);
+    background: var(--gradiente-1);
     display: flex;
     flex-wrap: wrap;
     gap: 3vw;
     justify-content: center;
+    border-radius: 30px;
 }

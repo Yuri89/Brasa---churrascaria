@@ -1,0 +1,67 @@
+.contato-style {
+    background: var(--gradiente-1);
+    padding: 10vh 5vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.contato-div1 form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3vh;
+}
+
+.contato-div1 input {
+    background: var(--black);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.contato-div1 form button {
+    margin-top: 5vh;
+    padding: 1vh 2vw;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background: var(--black);
+    color: rgb(218, 218, 218);
+    transition: 300ms;
+}
+
+.contato-div1 form button:hover {
+    background-color: white;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.contato-div1 form textarea {
+    resize: none;
+    background: var(--black);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.mapSection {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mapSection h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.map {
+    margin-top: 50px;
+}

@@ -1,0 +1,38 @@
+.cardPergunta{
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Pergunta.active p{
+    max-width: 300px;
+    display: block;
+}
+
+.Pergunta.off p{
+    display: none;
+}
+.button-faq{
+    padding: 10px;
+    height: 18px;
+    transition: 300ms;
+    user-select: none;
+}
+.button-faq.active{
+    rotate: 90deg;
+}
+
+.button-faq.off{
+    
+}
+
+.perguntaStyle{
+    background-color: rgb(221, 221, 221);
+    color: var(--black);
+    width: 300px;
+    border-radius:5px;
+    padding: 3px;
+    margin-bottom: 10px;
+}

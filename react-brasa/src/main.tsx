@@ -11,6 +11,8 @@ import './index.css'
 import Pratos from './pages/Pratos';
 import Prato from './pages/Prato';
 import PageError from './pages/pageError';
+import Contato from './pages/Contato';
+import Faq from './pages/Faq';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -19,7 +21,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='Pratos/:prato' element={<Pratos/>}/>
-      <Route path='Prato/:NomeDoPrato' element={<Prato/>}/>
+      <Route path='Pratos/:retornoPrato/:nomeDoPrato' element={<Prato/>}/>
+      <Route path='Contato' element={<Contato/>}/>
+      <Route path='Faq' element={<Faq/>}/>
       <Route path='*' element={<PageError/>}/>
     </Routes>
     <Footer/>

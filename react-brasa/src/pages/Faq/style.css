@@ -1,0 +1,28 @@
+.faq-style{
+    background: var(--gradiente-1);
+    padding: 10vh 5vw;
+
+}
+
+.faq-glass{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.397);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.perguntas-org{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logoImg{
+    width: 300px;
+    mix-blend-mode: color-burn;
+}

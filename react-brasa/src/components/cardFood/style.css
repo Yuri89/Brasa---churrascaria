@@ -81,3 +81,9 @@
     color: rgb(255, 62, 62);
     font-size: 2rem;
 }
+
+.preco{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 2vh;
+}

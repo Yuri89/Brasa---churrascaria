@@ -37,9 +37,9 @@ function Home() {
                         </span>
 
                         <div className="orgCard">
-                            <CardFood img={imgCarne1} nomePrato="patinho dourado" descricaoPrato="prato muito saboreado"/>
-                            <CardFood img={imgCarne2} nomePrato="patinho dourado" descricaoPrato="prato muito saboreado"/>
-                            <CardFood img={imgCarne3} nomePrato="patinho dourado" descricaoPrato="prato muito saboreado"/>
+                            <CardFood img={imgCarne1} nomePrato="patinho dourado" descricaoPrato="prato muito saboreado" preco="14,00"/>
+                            <CardFood img={imgCarne2} nomePrato="patinho dourado" descricaoPrato="prato muito saboreado" preco="14,00"/>
+                            <CardFood img={imgCarne3} nomePrato="patinho dourado" descricaoPrato="prato muito saboreado" preco="14,00"/>
 
                         </div>
 
@@ -73,6 +73,10 @@ function Home() {
                 </section>
 
                 <section className="paralax"></section>
+
+
+                <section className="secao5">
+                </section>
 
                 <section className="secao4">
 
@@ -111,9 +115,6 @@ function Home() {
                 </section>
 
                 <section className="secao5">
-
-
-
                 </section>
             </main>
 

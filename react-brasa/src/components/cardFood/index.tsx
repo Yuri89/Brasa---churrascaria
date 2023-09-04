@@ -13,8 +13,9 @@ function CardFood(props:any) {
                 <span>
                     <h3>{props.nomePrato}</h3>
                     <p>{props.descricaoPrato}</p>
+                    <p className="preco">R${props.preco}</p>
                 </span>
-                <div className="caixinhaCorrecao"><Link className="botaoComida" to={"Pratos/Frango"}><span>ver mais</span></Link></div>
+                <div className="caixinhaCorrecao"><Link className="botaoComida" to={props.link}><span>ver mais</span></Link></div>
                 
             </div>
         </>

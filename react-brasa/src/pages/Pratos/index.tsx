@@ -14,25 +14,33 @@ function Pratos() {
         "id": 11,
         "nome": "Prato 1",
         "descricao": "Uma deliciosa carne vermelha grelhada.",
-        "foto": "/src/assets/img/imgcardapio/imgcarne/carne1.png"
+        "preco": "14,90",
+        "foto": "/src/assets/img/imgcardapio/imgcarne/carne1.png",
+        "link": "Prato1"
       },
       {
         "id": 12,
         "nome": "Prato 2",
         "descricao": "Carne vermelha suculenta com acompanhamentos.",
-        "foto": "/src/assets/img/imgcardapio/imgcarne/carne2.png"
+        "preco": "11,90",
+        "foto": "/src/assets/img/imgcardapio/imgcarne/carne2.png",
+        "link": "Prato2"
       },
       {
         "id": 13,
         "nome": "Prato 3",
         "descricao": "Carne vermelha suculenta com acompanhamentos.",
-        "foto": "/src/assets/img/imgcardapio/imgcarne/carne3.png"
+        "preco": "15,20",
+        "foto": "/src/assets/img/imgcardapio/imgcarne/carne3.png",
+        "link": "Prato3"
       },
       {
         "id": 14,
         "nome": "Prato 4",
         "descricao": "Carne vermelha suculenta com acompanhamentos.",
-        "foto": "/src/assets/img/imgcardapio/imgcarne/carne4.png"
+        "preco": "18,50",
+        "foto": "/src/assets/img/imgcardapio/imgcarne/carne4.png",
+        "link": "Prato4"
       }
     ],
     "Costela": [
@@ -40,25 +48,33 @@ function Pratos() {
         "id": 21,
         "nome": "Prato 3",
         "descricao": "Costela defumada e macia com molho especial.",
-        "foto": "/src/assets/img/imgcardapio/imgcostela/costela1.jpg"
+        "preco": "1,00",
+        "foto": "/src/assets/img/imgcardapio/imgcostela/costela1.jpg",
+        "link": "Prato1"
       },
       {
         "id": 21,
         "nome": "Prato 3",
         "descricao": "Costela defumada e macia com molho especial.",
-        "foto": "/src/assets/img/imgcardapio/imgcostela/costela1.jpg"
+        "preco": "1,00",
+        "foto": "/src/assets/img/imgcardapio/imgcostela/costela1.jpg",
+        "link": "Prato1"
       },
       {
         "id": 21,
         "nome": "Prato 3",
         "descricao": "Costela defumada e macia com molho especial.",
-        "foto": "/src/assets/img/imgcardapio/imgcostela/costela1.jpg"
+        "preco": "1,00",
+        "foto": "/src/assets/img/imgcardapio/imgcostela/costela1.jpg",
+        "link": "Prato1"
       },
       {
         "id": 21,
         "nome": "Prato 3",
         "descricao": "Costela defumada e macia com molho especial.",
-        "foto": "/src/assets/img/imgcardapio/imgcostela/costela1.jpg"
+        "preco": "1,00",
+        "foto": "/src/assets/img/imgcardapio/imgcostela/costela1.jpg",
+        "link": "Prato1"
       }
 
 
@@ -77,10 +93,12 @@ function Pratos() {
         nomePrato={pratoInfo.nome}
         descricaoPrato={pratoInfo.descricao}
         img={pratoInfo.foto}
+        link={pratoInfo.link}
+        preco={pratoInfo.preco}
       />
     ))
   ) : (
-    <div>não há nada</div>
+    <div>Infelizmente não temos está pagina: /{prato}</div>
   )}
           
       </section>
