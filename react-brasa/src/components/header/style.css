@@ -77,7 +77,86 @@ header{
     
 }
 
+.menuBurguer{
+    display: none;
+}
+
 .dropdown-menu.hidden a{
     opacity: 0;
     transition: 400ms;
+}
+
+.menuAbsoluto{
+    display: none;
+}
+
+@media screen and (max-width:800px){
+    .linksNav{
+        display: none;
+    }
+    .logo{
+        width: 20vw;
+    }
+    .menuBurguer{
+        display: block;
+        cursor: pointer;
+    }
+    .menuAbsoluto.active{
+        display: block;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.699);
+
+
+        z-index: 20;
+        border-bottom: #d8d8d8 1px solid;
+        backdrop-filter: blur(5px);
+        padding: 10px;
+
+        top: -5px;
+        left: -5px;
+        width: 1000px;
+    }
+
+
+    .menuAbsoluto.hidden{
+        display: none;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.699);
+
+
+        z-index: 20;
+        border-bottom: #d8d8d8 1px solid;
+        backdrop-filter: blur(5px);
+        padding: 10px;
+
+        top: -5px;
+        left: -5px;
+        width: 1000px;
+    }
+
+
+    .menuAbsoluto-box{
+        background-color: rgba(233, 233, 233, 0.178);
+        width: 250px;
+        backdrop-filter: blur(20px);
+    }
+
+    .menuAbsoluto-box a{
+        text-decoration: none;
+        color: #d8d8d8;
+        font-size: 30px;
+    }
+    .menuAbsoluto-box li{
+        padding: 10px;
+        list-style: none;
+    }
+
+    .menuAbsoluto-box a:hover{
+        text-decoration: none;
+        color: var(--color-2);
+        font-size: 30px;
+        border-left: 3px solid var(--color-2);
+        padding-left: 5px;
+        z-index: 30;
+    }
 }

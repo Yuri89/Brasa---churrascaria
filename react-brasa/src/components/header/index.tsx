@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react"
 import { Link } from "react-router-dom"
 import "./style.css"
 import imgLogo from "../../assets/img/Brasa.svg"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 function Header() {
   const [dropdownVisible, setDropdownVisible] = useState(false)
@@ -31,6 +33,30 @@ function Header() {
         <Link to={"/"}>
           <img className="logo" src={imgLogo} alt="" />
         </Link>
+        <FontAwesomeIcon className="menuBurguer" icon={faBars} style={{ color: "#ffffff", }} size="2x" onClick={toggleDropdown}/>
+
+        <div className={`menuAbsoluto ${dropdownVisible ? "active" : "hidden"}`} ref={dropdownRef} >
+          <ul className="menuAbsoluto-box" >
+            <li>
+              <Link to="Pratos/CarneVermelha">Carne Vermelha</Link>
+            </li>
+            <li>
+              <Link to="Pratos/Costela">Costela</Link>
+            </li>
+            <li>
+              <Link to="Pratos/Frango">Frango</Link>
+            </li>
+            <li>
+
+              
+              <Link to="Pratos/Linguica">Linguiça</Link>
+            </li>
+            <li>
+              <Link to="Pratos/Outros">Outros</Link>
+            </li>
+          </ul>
+        </div>
+
         <nav className="linksNav">
           <ul className="links">
             <li>
